@@ -132,7 +132,6 @@ const App: React.FC = () => {
     teamPaymentRecords, setTeamPaymentRecords, teamPaymentRecordsOps,
     rewardLedgerEntries, setRewardLedgerEntries, rewardLedgerEntriesOps,
     profile, setProfile, profileOps,
-    users, setUsers,
     loading, error
   } = useSupabaseData();
   useEffect(() => {
