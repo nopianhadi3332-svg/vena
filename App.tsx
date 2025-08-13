@@ -144,7 +144,6 @@ const App: React.FC = () => {
   }, []);
 
   // Initialize users with mock data (since we don't have auth setup yet)
-  const [users, setUsers] = useState<User[]>(() => JSON.parse(JSON.stringify(MOCK_USERS)));
 
   const showNotification = (message: string, duration: number = 3000) => {
     setNotification(message);
